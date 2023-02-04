@@ -1,0 +1,15 @@
+domain: wangan.com
+layout:
+- go.kubebuilder.io/v3
+projectName: monitor
+repo: github.com/RJuzhi/Monitor
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: wangan.com
+  group: cloud
+  kind: Monitor
+  path: github.com/RJuzhi/Monitor/api/v1
+  version: v1
+version: "3"

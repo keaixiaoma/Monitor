@@ -1,0 +1,6 @@
+apiVersion: cloud.wangan.com/v1
+kind: Monitor
+metadata:
+  name: monitor-sample
+spec:
+  # TODO(user): Add fields here
