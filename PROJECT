@@ -2,7 +2,7 @@ domain: wangan.com
 layout:
 - go.kubebuilder.io/v3
 projectName: monitor
-repo: github.com/RJuzhi/Monitor
+repo: github.com/keaixiaoma/remote-repo
 resources:
 - api:
     crdVersion: v1
@@ -10,6 +10,6 @@ resources:
   domain: wangan.com
   group: cloud
   kind: Monitor
-  path: github.com/RJuzhi/Monitor/api/v1
+  path: github.com/keaixiaoma/remote-repo/api/v1
   version: v1
 version: "3"
