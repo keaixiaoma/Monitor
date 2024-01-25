@@ -3,9 +3,9 @@ package collector
 import (
 	"context"
 	"github.com/NVIDIA/gpu-monitoring-tools/bindings/go/nvml"
-	apierror "k8s.io/apimachinery/pkg/api/errors"
 	v1 "github.com/RJuzhi/Monitor/api/v1"
 	"github.com/RJuzhi/Monitor/pkg/log"
+	apierror "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"os"
